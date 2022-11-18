@@ -1,44 +1,44 @@
-# Dataset 📊
-A dataset consisting of various parameters to predict the price score/range of a mobile phone based on certain inputs such as following:
+# Mobile-Price-Range-Prediction
+# In the competitive mobile phone market companies want to understand sales data of mobile phones and factors which drive the prices. The objective is to find out some relation between features of a mobile phone(eg:- RAM, Internal Memory, etc) and its selling price. In this problem, we do not have to predict the actual price but a price range indicating how high the price is.
+# Data Description -
+Battery_power - Total energy a battery can store in one time measured in mAh
 
-id:ID
+Blue - Has bluetooth or not
 
-battery_power:Total energy a battery can store in one time measured in mAh
+Clock_speed - speed at which microprocessor executes instructions
 
-blue:Has bluetooth or not
+Dual_sim - Has dual sim support or not
 
-clock_speed:speed at which microprocessor executes instructions
+Fc - Front Camera mega pixels
 
-dual_sim:Has dual sim support or not
+Four_g - Has 4G or not
 
-fc:Front Camera mega pixels
+Int_memory - Internal Memory in Gigabytes
 
-four_g:Has 4G or not
+M_dep - Mobile Depth in cm
 
-int_memory:Internal Memory in Gigabytes
+Mobile_wt - Weight of mobile phone
 
-m_dep:Mobile Depth in cm
+N_cores - Number of cores of processor
 
-mobile_wt:Weight of mobile phone
+Pc - Primary Camera mega pixels
 
-n_cores:Number of cores of processor
+Px_heig Px_height - Pixel Resolution Height
 
-pc:Primary Camera mega pixels
+Px_width - Pixel Resolution Width
 
-px_height:Pixel Resolution Height
+Ram - Random Access Memory in Mega Bytes
 
-px_width:Pixel Resolution Width
+Sc_h - Screen Height of mobile in cm
 
-ram:Random Access Memory in Megabytes
+Sc_w - Screen Width of mobile in cm
 
-sc_h:Screen Height of mobile in cm
+Talk_time - longest time that a single battery charge will last
 
-sc_w:Screen Width of mobile in cm
+Three_g - Has 3G or not
 
-talk_time:longest time that a single battery charge will last when you are
+Touch_screen - Has touch screen or not
 
-three_g:Has 3G or not
+Wifi - Has wifi or not
 
-touch_screen:Has touch screen or not
-
-wifi:Has wifi or not
+Price_range - This is the target variable with value of 0(low cost), 1 (medium cost), 2(high cost) and 3(very high cost).
